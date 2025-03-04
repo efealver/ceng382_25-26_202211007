@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(https://64.media.tumblr.com/171b4aefa2097917b23e136c15412d05/tumblr_ogh539t2xG1vtr55to1_500.gif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 25px;
+    width: 350px;
+    color: #fff;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+.ring {
+    width: 200px;
+    height: 200px;
+    border: 20px solid #d4af37;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    position: relative;
+    animation: ringGlow 2s infinite ease-in-out;
+    box-shadow: 0 0 25px #f4e04d;
+}
+
+@keyframes ringGlow {
+    0% {
+        box-shadow: 0 0 20px #d4af37, 0 0 30px #d4af37;
+    }
+    50% {
+        box-shadow: 0 0 30px #d4af37, 0 0 40px #d4af37;
+    }
+    100% {
+        box-shadow: 0 0 20px #d4af37, 0 0 30px #d4af37;
+    }
+}
+
+/* Heading */
+h1 {
+    font-size: 24px;
+    color: #d4af37;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    background-color: #3a3a3a;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+form input:focus {
+    border: 2px solid #f4e04d;
+}
+form button{
+    height: 50px;
+    width: 220px;
+    border: 5px;
+    border-radius: 8px;
+    background-color: #d4af37;
+}
+
+
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+.lotr-logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+}
+
+.lotr-logo .lotr-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #d4af37;
+    text-shadow: 0 0 10px #d4af37, 0 0 20px #d4af37, 0 0 30px #d4af37;
+    font-family: 'Ringbearer', sans-serif; /* Use a LOTR themed font if available */
+}
+/* Elvish Themed Tree */
+.elvish-tree {
+    position: relative;
+    width: 100px;
+    height: 150px;
+    margin: 0 auto 20px;
+}
+
+.elvish-tree::before,
+.elvish-tree::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.elvish-tree::before {
+    top: 0;
+    left: 50%;
+    border-width: 0 50px 100px 50px;
+    border-color: transparent transparent #d4af37 transparent;
+    transform: translateX(-50%);
+}
+
+.elvish-tree::after {
+    top: 50px;
+    left: 50%;
+    border-width: 0 40px 80px 40px;
+    border-color: transparent transparent #d4af37 transparent;
+    transform: translateX(-50%);
+}
+
+.elvish-tree .trunk {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 50px;
+    background-color: #8B4513;
+    transform: translateX(-50%);
+}
