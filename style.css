@@ -111,47 +111,5 @@ form button{
     font-weight: bold;
     color: #d4af37;
     text-shadow: 0 0 10px #d4af37, 0 0 20px #d4af37, 0 0 30px #d4af37;
-    font-family: 'Ringbearer', sans-serif; /* Use a LOTR themed font if available */
-}
-/* Elvish Themed Tree */
-.elvish-tree {
-    position: relative;
-    width: 100px;
-    height: 150px;
-    margin: 0 auto 20px;
-}
-
-.elvish-tree::before,
-.elvish-tree::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-}
-
-.elvish-tree::before {
-    top: 0;
-    left: 50%;
-    border-width: 0 50px 100px 50px;
-    border-color: transparent transparent #d4af37 transparent;
-    transform: translateX(-50%);
-}
-
-.elvish-tree::after {
-    top: 50px;
-    left: 50%;
-    border-width: 0 40px 80px 40px;
-    border-color: transparent transparent #d4af37 transparent;
-    transform: translateX(-50%);
-}
-
-.elvish-tree .trunk {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 20px;
-    height: 50px;
-    background-color: #8B4513;
-    transform: translateX(-50%);
+    font-family: 'Ringbearer', sans-serif; 
 }

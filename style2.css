@@ -110,5 +110,5 @@ form button{
     font-weight: bold;
     color: #d4af37;
     text-shadow: 0 0 10px #d4af37, 0 0 20px #d4af37, 0 0 30px #d4af37;
-    font-family: 'Ringbearer', sans-serif; /* Use a LOTR themed font if available */
+    font-family: 'Ringbearer', sans-serif; 
 }
