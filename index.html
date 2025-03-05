@@ -11,20 +11,69 @@
         <div class="lotr-logo">
             <div class="lotr-text">LOTR</div>
         </div>
-        <div class="ring"></div>
-        <h1>Sign In to Middle-Earth</h1>
-        <p>Enter your credentials to embark on your journey.</p>
+        <div class="ring">
+            <div class="tree">
+                <div class="tree-top"></div>
+                <div class="tree-middle"></div>
+                <div class="tree-bottom"></div>
+                <div class="tree-trunk"></div>
+            </div>
+        </div>
         
-        <form action="index2.html">
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
+      
+        <div id="clock" class="clock"></div>
+        <form  id= "login" action="index2.html">
+            <h1>Sign In to Middle-Earth</h1>
+            <p>Enter your credentials to embark on your journey.</p>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
             <button type="submit">Sign In</button>
+            <div class="links">
+                <a href="#">Forgot your password?</a>
+                <a href="#">Create a new account</a>
+            </div>
         </form>
          
-        <div class="links">
-            <a href="#">Forgot your password?</a>
-            <a href="#">Create a new account</a>
-        </div>
+     
     </div>
+    <script>
+        const loginForm=document.getElementById('login');
+        const info=[];
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            info.push({username,password});
+            console.log(info);
+            
+        });
+        function updateClock() {
+            const clock = document.getElementById('clock');
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            clock.textContent = `${hours}:${minutes}:${seconds}`;
+        }
+
+        setInterval(updateClock, 1000);
+        updateClock();
+        function toggle() {
+            const forms = document.querySelectorAll('form');
+            forms.forEach(form => {
+                if (form.style.display === 'none') {
+                    form.style.display = 'block';
+                } else {
+                    form.style.display = 'none';
+                }
+            });
+        }
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'h' || event.key === 'H') {
+                toggle();
+            }
+        });
+    </script>
 </body>
 </html>
