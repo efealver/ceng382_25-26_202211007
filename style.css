@@ -113,3 +113,44 @@ form button{
     text-shadow: 0 0 10px #d4af37, 0 0 20px #d4af37, 0 0 30px #d4af37;
     font-family: 'Ringbearer', sans-serif; 
 }
+.tree {
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+}
+
+.tree-top, .tree-middle, .tree-bottom {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+}
+
+.tree-top {
+    top: 0;
+    border-width: 0 25px 50px 25px; /* Reduced size */
+    border-color: transparent transparent #d4af37 transparent;
+}
+
+.tree-middle {
+    top: 25px; /* Adjusted position */
+    border-width: 0 30px 60px 30px; /* Reduced size */
+    border-color: transparent transparent #d4af37 transparent;
+}
+
+.tree-bottom {
+    top: 50px; /* Adjusted position */
+    border-width: 0 35px 70px 35px; /* Reduced size */
+    border-color: transparent transparent #d4af37 transparent;
+}
+
+.tree-trunk {
+    position: absolute;
+    top: 100px; /* Adjusted position */
+    left: 50%;
+    width: 20px; /* Reduced size */
+    height: 30px; /* Reduced size */
+    background-color: #8B4513;
+    transform: translateX(-50%);
+}
