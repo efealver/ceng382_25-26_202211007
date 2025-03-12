@@ -21,10 +21,10 @@
         </div>
         <h1>Sign In to Middle-Earth</h1>
         <p>Enter your credentials to embark on your journey.</p>
-        
-        <form action="index2.html">
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
+        <div id="clock" class="clock"></div>
+        <form id="login">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
             <button type="submit">Sign In</button>
         </form>
          
@@ -32,6 +32,52 @@
             <a href="#">Forgot your password?</a>
             <a href="#">Create a new account</a>
         </div>
+
+        <script>
+            const loginForm = document.getElementById('login');
+            const defaultUsername = 'admin';
+            const defaultPassword = 'admin';
+
+            loginForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+
+                const username = document.getElementById('username').value.trim();
+                const password = document.getElementById('password').value.trim();
+
+                if (username === defaultUsername && password === defaultPassword) {
+                    window.location.href = 'table.html';
+                } else {
+                    alert('Invalid credentials! Try again.');
+                }
+            });
+
+            function updateClock() {
+                const clock = document.getElementById('clock');
+                if (!clock) return;
+                
+                const now = new Date();
+                const hours = String(now.getHours()).padStart(2, '0');
+                const minutes = String(now.getMinutes()).padStart(2, '0');
+                const seconds = String(now.getSeconds()).padStart(2, '0');
+                clock.textContent = `${hours}:${minutes}:${seconds}`;
+            }
+
+            setInterval(updateClock, 1000);
+            updateClock();
+
+            function toggle() {
+                const forms = document.querySelectorAll('form');
+                forms.forEach(form => {
+                    form.style.display = form.style.display === 'none' ? 'block' : 'none';
+                });
+            }
+
+            document.addEventListener('keydown', (event) => {
+                if (event.key.toLowerCase() === 'h') {
+                    toggle();
+                }
+            });
+        </script>
     </div>
-</body>
+</body>  
 </html>
