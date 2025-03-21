@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LabProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LabProject.jrwzq7rs02.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\css\\bootstrap\\_media.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\_media.css"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\css\\bootstrap\\mixins\\_border-radius.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\mixins\\_border-radius.css"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\mixins\\_screen-reader.css"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\css\\bootstrap\\mixins\\_visibility.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\mixins\\_visibility.css"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\utilities\\_stretched-link.css"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\LabProject\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LabProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LabProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.LabProject.props",
+      "PackagePath": "build\\LabProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.LabProject.props",
+      "PackagePath": "buildMultiTargeting\\LabProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.LabProject.props",
+      "PackagePath": "buildTransitive\\LabProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
