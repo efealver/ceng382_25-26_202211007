@@ -1,0 +1,4442 @@
+{
+  "Version": 1,
+  "Hash": "8qtlsIczPVrpfCrz/XCTZNC0O2DkUCoK1kQNldwDa6A=",
+  "Source": "razorpages",
+  "BasePath": "_content/razorpages",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "razorpages\\wwwroot",
+      "Source": "razorpages",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\01s1d0oymx-m8so7gk97h.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "js/bootstrap.min#[.{fingerprint=m8so7gk97h}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "airgrgbojo",
+      "Integrity": "viWnXVpbsgq8MxdL8fighFphfr+vKOGaiLYg3RK70tM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\2befewg69n-dddfm65c8w.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "js/popper#[.{fingerprint=dddfm65c8w}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\popper.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "m9dj68s628",
+      "Integrity": "FhA2r9tHe82cCFuaax3U2DmkDtIhqir87NvsSq8p5FA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\popper.js"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\bufk8m9moe-b43ch30if3.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/_media#[.{fingerprint=b43ch30if3}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\_media.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jqrmst8pul",
+      "Integrity": "6yXxvxnUWIY4ctZZqWtEutTn8Vd+RPbzK8KbCHgfQ7U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\_media.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\fkx7pcm582-klhq17flv5.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/style#[.{fingerprint=klhq17flv5}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2qhfjd6hll",
+      "Integrity": "hhHuYem+/sHpqQyDLiiMYGeFBphcjK1NayUcwIOcuHk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\gzc2ueeg58-0h1hq80lqs.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "js/jquery.min#[.{fingerprint=0h1hq80lqs}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\jquery.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ogzq1v276y",
+      "Integrity": "CJMWknoFRAZby6ZffmCigNiX1LX+b5f9cz2RaT4sTqE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\h47bw0bdt7-og2dpbrh3e.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/utilities/_stretched-link#[.{fingerprint=og2dpbrh3e}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "73vgb3hkms",
+      "Integrity": "nRc3OmlAmP/ZOWKBl0cZmuQjKmtuDvmBm8+vY3G3QNg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\utilities\\_stretched-link.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\i0kadbd4kx-o2wlpouf80.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint=o2wlpouf80}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ehbczsria",
+      "Integrity": "zaQgQ21xlHZvWXs5wfbRfDyv1pNSojCG2fA9x7EOpoA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kjn7cb3ut8-5ipweew5fc.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/mixins/_screen-reader#[.{fingerprint=5ipweew5fc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_screen-reader.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kx6rw03xfr-b48u9nuv11.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "js/main#[.{fingerprint=b48u9nuv11}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\main.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8bc2jlzflf",
+      "Integrity": "1AEuUgzSMYtDnA5tXhFyi6QlbeRo/x6CY5G3M45EUDo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\odatc3mk1v-87a4vh6qsf.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "razorpages#[.{fingerprint=87a4vh6qsf}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\razorpages.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y7mfkf1t7i",
+      "Integrity": "wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\razorpages.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\p0olnnrgbz-5ipweew5fc.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/mixins/_border-radius#[.{fingerprint=5ipweew5fc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_border-radius.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_border-radius.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\tk5wjgxlj6-87a4vh6qsf.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "razorpages#[.{fingerprint=87a4vh6qsf}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\bundle\\razorpages.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y7mfkf1t7i",
+      "Integrity": "wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\bundle\\razorpages.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\zxjg5w5se2-5ipweew5fc.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/mixins/_visibility#[.{fingerprint=5ipweew5fc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_visibility.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_visibility.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\bundle\\razorpages.styles.css",
+      "SourceId": "razorpages",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "razorpages#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "87a4vh6qsf",
+      "Integrity": "XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\bundle\\razorpages.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\razorpages.bundle.scp.css",
+      "SourceId": "razorpages",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "razorpages#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "87a4vh6qsf",
+      "Integrity": "XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\razorpages.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o2wlpouf80",
+      "Integrity": "YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\_media.css",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/_media#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b43ch30if3",
+      "Integrity": "y7cnP3ymVes74dCg5U/AtfuJrHJ3gn1PnfCAbUffqVc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\_media.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_border-radius.css",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/mixins/_border-radius#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\mixins\\_border-radius.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/mixins/_screen-reader#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\mixins\\_screen-reader.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_visibility.css",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/mixins/_visibility#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\mixins\\_visibility.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/bootstrap/utilities/_stretched-link#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "og2dpbrh3e",
+      "Integrity": "SP18fRzfv4nwUljKF8Dh6u2QBcEP+0oMF8n5nPvi8eU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\utilities\\_stretched-link.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\style.css",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "klhq17flv5",
+      "Integrity": "aNd4Bf7SNG+AOkP5MuBWnWY9LTOThyfI8hpA3m7k93w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m8so7gk97h",
+      "Integrity": "CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\jquery.min.js",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "js/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0h1hq80lqs",
+      "Integrity": "TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\main.js",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b48u9nuv11",
+      "Integrity": "ZXZ8hkugBL++wiQX8HQRGI5TgVQYwbAYl6XUNRI9yXg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\popper.js",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "js/popper#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dddfm65c8w",
+      "Integrity": "ce98Ftddp1pdQX33XtchRLxexlqcBCm33uCYitw+jSk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\popper.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\i0kadbd4kx-o2wlpouf80.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000042966400"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23273"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zaQgQ21xlHZvWXs5wfbRfDyv1pNSojCG2fA9x7EOpoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "155758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\i0kadbd4kx-o2wlpouf80.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zaQgQ21xlHZvWXs5wfbRfDyv1pNSojCG2fA9x7EOpoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zaQgQ21xlHZvWXs5wfbRfDyv1pNSojCG2fA9x7EOpoA="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.o2wlpouf80.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\i0kadbd4kx-o2wlpouf80.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000042966400"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23273"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zaQgQ21xlHZvWXs5wfbRfDyv1pNSojCG2fA9x7EOpoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o2wlpouf80"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.o2wlpouf80.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "155758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o2wlpouf80"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.o2wlpouf80.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\i0kadbd4kx-o2wlpouf80.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zaQgQ21xlHZvWXs5wfbRfDyv1pNSojCG2fA9x7EOpoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o2wlpouf80"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zaQgQ21xlHZvWXs5wfbRfDyv1pNSojCG2fA9x7EOpoA="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/_media.b43ch30if3.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\bufk8m9moe-b43ch30if3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007751937984"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6yXxvxnUWIY4ctZZqWtEutTn8Vd+RPbzK8KbCHgfQ7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"y7cnP3ymVes74dCg5U/AtfuJrHJ3gn1PnfCAbUffqVc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b43ch30if3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/_media.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y7cnP3ymVes74dCg5U/AtfuJrHJ3gn1PnfCAbUffqVc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/_media.b43ch30if3.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\_media.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y7cnP3ymVes74dCg5U/AtfuJrHJ3gn1PnfCAbUffqVc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b43ch30if3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/_media.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y7cnP3ymVes74dCg5U/AtfuJrHJ3gn1PnfCAbUffqVc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/_media.b43ch30if3.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\bufk8m9moe-b43ch30if3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6yXxvxnUWIY4ctZZqWtEutTn8Vd+RPbzK8KbCHgfQ7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b43ch30if3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/_media.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6yXxvxnUWIY4ctZZqWtEutTn8Vd+RPbzK8KbCHgfQ7U="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/_media.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\bufk8m9moe-b43ch30if3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007751937984"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6yXxvxnUWIY4ctZZqWtEutTn8Vd+RPbzK8KbCHgfQ7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"y7cnP3ymVes74dCg5U/AtfuJrHJ3gn1PnfCAbUffqVc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y7cnP3ymVes74dCg5U/AtfuJrHJ3gn1PnfCAbUffqVc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/_media.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\_media.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y7cnP3ymVes74dCg5U/AtfuJrHJ3gn1PnfCAbUffqVc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y7cnP3ymVes74dCg5U/AtfuJrHJ3gn1PnfCAbUffqVc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/_media.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\bufk8m9moe-b43ch30if3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6yXxvxnUWIY4ctZZqWtEutTn8Vd+RPbzK8KbCHgfQ7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6yXxvxnUWIY4ctZZqWtEutTn8Vd+RPbzK8KbCHgfQ7U="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_border-radius.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\p0olnnrgbz-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/mixins/_border-radius.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_border-radius.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_border-radius.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/mixins/_border-radius.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_border-radius.5ipweew5fc.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\p0olnnrgbz-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/mixins/_border-radius.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_border-radius.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\p0olnnrgbz-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_border-radius.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_border-radius.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_border-radius.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\p0olnnrgbz-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_screen-reader.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kjn7cb3ut8-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/mixins/_screen-reader.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_screen-reader.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/mixins/_screen-reader.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_screen-reader.5ipweew5fc.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kjn7cb3ut8-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/mixins/_screen-reader.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_screen-reader.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kjn7cb3ut8-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_screen-reader.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_screen-reader.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kjn7cb3ut8-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_visibility.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\zxjg5w5se2-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/mixins/_visibility.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_visibility.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_visibility.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/mixins/_visibility.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_visibility.5ipweew5fc.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\zxjg5w5se2-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/mixins/_visibility.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_visibility.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\zxjg5w5se2-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_visibility.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\mixins\\_visibility.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/mixins/_visibility.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\zxjg5w5se2-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/utilities/_stretched-link.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\h47bw0bdt7-og2dpbrh3e.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006578947368"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nRc3OmlAmP/ZOWKBl0cZmuQjKmtuDvmBm8+vY3G3QNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SP18fRzfv4nwUljKF8Dh6u2QBcEP+0oMF8n5nPvi8eU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SP18fRzfv4nwUljKF8Dh6u2QBcEP+0oMF8n5nPvi8eU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/utilities/_stretched-link.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SP18fRzfv4nwUljKF8Dh6u2QBcEP+0oMF8n5nPvi8eU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SP18fRzfv4nwUljKF8Dh6u2QBcEP+0oMF8n5nPvi8eU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/utilities/_stretched-link.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\h47bw0bdt7-og2dpbrh3e.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nRc3OmlAmP/ZOWKBl0cZmuQjKmtuDvmBm8+vY3G3QNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nRc3OmlAmP/ZOWKBl0cZmuQjKmtuDvmBm8+vY3G3QNg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/utilities/_stretched-link.og2dpbrh3e.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\h47bw0bdt7-og2dpbrh3e.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006578947368"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nRc3OmlAmP/ZOWKBl0cZmuQjKmtuDvmBm8+vY3G3QNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SP18fRzfv4nwUljKF8Dh6u2QBcEP+0oMF8n5nPvi8eU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "og2dpbrh3e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/utilities/_stretched-link.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SP18fRzfv4nwUljKF8Dh6u2QBcEP+0oMF8n5nPvi8eU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/utilities/_stretched-link.og2dpbrh3e.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SP18fRzfv4nwUljKF8Dh6u2QBcEP+0oMF8n5nPvi8eU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "og2dpbrh3e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/utilities/_stretched-link.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SP18fRzfv4nwUljKF8Dh6u2QBcEP+0oMF8n5nPvi8eU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/utilities/_stretched-link.og2dpbrh3e.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\h47bw0bdt7-og2dpbrh3e.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nRc3OmlAmP/ZOWKBl0cZmuQjKmtuDvmBm8+vY3G3QNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "og2dpbrh3e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/utilities/_stretched-link.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nRc3OmlAmP/ZOWKBl0cZmuQjKmtuDvmBm8+vY3G3QNg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\fkx7pcm582-klhq17flv5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000035102499"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28487"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hhHuYem+/sHpqQyDLiiMYGeFBphcjK1NayUcwIOcuHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aNd4Bf7SNG+AOkP5MuBWnWY9LTOThyfI8hpA3m7k93w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNd4Bf7SNG+AOkP5MuBWnWY9LTOThyfI8hpA3m7k93w="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "223006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNd4Bf7SNG+AOkP5MuBWnWY9LTOThyfI8hpA3m7k93w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNd4Bf7SNG+AOkP5MuBWnWY9LTOThyfI8hpA3m7k93w="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\fkx7pcm582-klhq17flv5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hhHuYem+/sHpqQyDLiiMYGeFBphcjK1NayUcwIOcuHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hhHuYem+/sHpqQyDLiiMYGeFBphcjK1NayUcwIOcuHk="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.klhq17flv5.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\fkx7pcm582-klhq17flv5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000035102499"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28487"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hhHuYem+/sHpqQyDLiiMYGeFBphcjK1NayUcwIOcuHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aNd4Bf7SNG+AOkP5MuBWnWY9LTOThyfI8hpA3m7k93w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "klhq17flv5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNd4Bf7SNG+AOkP5MuBWnWY9LTOThyfI8hpA3m7k93w="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.klhq17flv5.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "223006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNd4Bf7SNG+AOkP5MuBWnWY9LTOThyfI8hpA3m7k93w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "klhq17flv5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNd4Bf7SNG+AOkP5MuBWnWY9LTOThyfI8hpA3m7k93w="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.klhq17flv5.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\fkx7pcm582-klhq17flv5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hhHuYem+/sHpqQyDLiiMYGeFBphcjK1NayUcwIOcuHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "klhq17flv5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hhHuYem+/sHpqQyDLiiMYGeFBphcjK1NayUcwIOcuHk="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\01s1d0oymx-m8so7gk97h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000064586966"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15482"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"viWnXVpbsgq8MxdL8fighFphfr+vKOGaiLYg3RK70tM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.js.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\01s1d0oymx-m8so7gk97h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15482"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"viWnXVpbsgq8MxdL8fighFphfr+vKOGaiLYg3RK70tM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-viWnXVpbsgq8MxdL8fighFphfr+vKOGaiLYg3RK70tM="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.m8so7gk97h.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\01s1d0oymx-m8so7gk97h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000064586966"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15482"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"viWnXVpbsgq8MxdL8fighFphfr+vKOGaiLYg3RK70tM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m8so7gk97h"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.m8so7gk97h.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m8so7gk97h"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.m8so7gk97h.js.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\01s1d0oymx-m8so7gk97h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15482"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"viWnXVpbsgq8MxdL8fighFphfr+vKOGaiLYg3RK70tM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m8so7gk97h"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-viWnXVpbsgq8MxdL8fighFphfr+vKOGaiLYg3RK70tM="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.0h1hq80lqs.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\gzc2ueeg58-0h1hq80lqs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032262227"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30995"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJMWknoFRAZby6ZffmCigNiX1LX+b5f9cz2RaT4sTqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0h1hq80lqs"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.0h1hq80lqs.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0h1hq80lqs"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.0h1hq80lqs.js.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\gzc2ueeg58-0h1hq80lqs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJMWknoFRAZby6ZffmCigNiX1LX+b5f9cz2RaT4sTqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0h1hq80lqs"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJMWknoFRAZby6ZffmCigNiX1LX+b5f9cz2RaT4sTqE="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\gzc2ueeg58-0h1hq80lqs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032262227"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30995"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJMWknoFRAZby6ZffmCigNiX1LX+b5f9cz2RaT4sTqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.js.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\gzc2ueeg58-0h1hq80lqs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJMWknoFRAZby6ZffmCigNiX1LX+b5f9cz2RaT4sTqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJMWknoFRAZby6ZffmCigNiX1LX+b5f9cz2RaT4sTqE="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.b48u9nuv11.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kx6rw03xfr-b48u9nuv11.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.015151515152"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1AEuUgzSMYtDnA5tXhFyi6QlbeRo/x6CY5G3M45EUDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZXZ8hkugBL++wiQX8HQRGI5TgVQYwbAYl6XUNRI9yXg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b48u9nuv11"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZXZ8hkugBL++wiQX8HQRGI5TgVQYwbAYl6XUNRI9yXg="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.b48u9nuv11.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZXZ8hkugBL++wiQX8HQRGI5TgVQYwbAYl6XUNRI9yXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b48u9nuv11"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZXZ8hkugBL++wiQX8HQRGI5TgVQYwbAYl6XUNRI9yXg="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.b48u9nuv11.js.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kx6rw03xfr-b48u9nuv11.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1AEuUgzSMYtDnA5tXhFyi6QlbeRo/x6CY5G3M45EUDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b48u9nuv11"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1AEuUgzSMYtDnA5tXhFyi6QlbeRo/x6CY5G3M45EUDo="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kx6rw03xfr-b48u9nuv11.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.015151515152"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1AEuUgzSMYtDnA5tXhFyi6QlbeRo/x6CY5G3M45EUDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZXZ8hkugBL++wiQX8HQRGI5TgVQYwbAYl6XUNRI9yXg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZXZ8hkugBL++wiQX8HQRGI5TgVQYwbAYl6XUNRI9yXg="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZXZ8hkugBL++wiQX8HQRGI5TgVQYwbAYl6XUNRI9yXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZXZ8hkugBL++wiQX8HQRGI5TgVQYwbAYl6XUNRI9yXg="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\kx6rw03xfr-b48u9nuv11.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1AEuUgzSMYtDnA5tXhFyi6QlbeRo/x6CY5G3M45EUDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1AEuUgzSMYtDnA5tXhFyi6QlbeRo/x6CY5G3M45EUDo="
+        }
+      ]
+    },
+    {
+      "Route": "js/popper.dddfm65c8w.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\2befewg69n-dddfm65c8w.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000133457894"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7492"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FhA2r9tHe82cCFuaax3U2DmkDtIhqir87NvsSq8p5FA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ce98Ftddp1pdQX33XtchRLxexlqcBCm33uCYitw+jSk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dddfm65c8w"
+        },
+        {
+          "Name": "label",
+          "Value": "js/popper.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ce98Ftddp1pdQX33XtchRLxexlqcBCm33uCYitw+jSk="
+        }
+      ]
+    },
+    {
+      "Route": "js/popper.dddfm65c8w.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\popper.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ce98Ftddp1pdQX33XtchRLxexlqcBCm33uCYitw+jSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dddfm65c8w"
+        },
+        {
+          "Name": "label",
+          "Value": "js/popper.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ce98Ftddp1pdQX33XtchRLxexlqcBCm33uCYitw+jSk="
+        }
+      ]
+    },
+    {
+      "Route": "js/popper.dddfm65c8w.js.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\2befewg69n-dddfm65c8w.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FhA2r9tHe82cCFuaax3U2DmkDtIhqir87NvsSq8p5FA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dddfm65c8w"
+        },
+        {
+          "Name": "label",
+          "Value": "js/popper.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FhA2r9tHe82cCFuaax3U2DmkDtIhqir87NvsSq8p5FA="
+        }
+      ]
+    },
+    {
+      "Route": "js/popper.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\2befewg69n-dddfm65c8w.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000133457894"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7492"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FhA2r9tHe82cCFuaax3U2DmkDtIhqir87NvsSq8p5FA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ce98Ftddp1pdQX33XtchRLxexlqcBCm33uCYitw+jSk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ce98Ftddp1pdQX33XtchRLxexlqcBCm33uCYitw+jSk="
+        }
+      ]
+    },
+    {
+      "Route": "js/popper.js",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\popper.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ce98Ftddp1pdQX33XtchRLxexlqcBCm33uCYitw+jSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ce98Ftddp1pdQX33XtchRLxexlqcBCm33uCYitw+jSk="
+        }
+      ]
+    },
+    {
+      "Route": "js/popper.js.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\2befewg69n-dddfm65c8w.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FhA2r9tHe82cCFuaax3U2DmkDtIhqir87NvsSq8p5FA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 09:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FhA2r9tHe82cCFuaax3U2DmkDtIhqir87NvsSq8p5FA="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.87a4vh6qsf.bundle.scp.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\odatc3mk1v-87a4vh6qsf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001862197393"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87a4vh6qsf"
+        },
+        {
+          "Name": "label",
+          "Value": "razorpages.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.87a4vh6qsf.bundle.scp.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\razorpages.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87a4vh6qsf"
+        },
+        {
+          "Name": "label",
+          "Value": "razorpages.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.87a4vh6qsf.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\odatc3mk1v-87a4vh6qsf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87a4vh6qsf"
+        },
+        {
+          "Name": "label",
+          "Value": "razorpages.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.87a4vh6qsf.styles.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\tk5wjgxlj6-87a4vh6qsf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001862197393"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87a4vh6qsf"
+        },
+        {
+          "Name": "label",
+          "Value": "razorpages.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.87a4vh6qsf.styles.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\bundle\\razorpages.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87a4vh6qsf"
+        },
+        {
+          "Name": "label",
+          "Value": "razorpages.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.87a4vh6qsf.styles.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\tk5wjgxlj6-87a4vh6qsf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87a4vh6qsf"
+        },
+        {
+          "Name": "label",
+          "Value": "razorpages.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.bundle.scp.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\odatc3mk1v-87a4vh6qsf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001862197393"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.bundle.scp.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\razorpages.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\odatc3mk1v-87a4vh6qsf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.styles.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\tk5wjgxlj6-87a4vh6qsf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001862197393"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.styles.css",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\scopedcss\\bundle\\razorpages.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XLCI8HN5Ateca6HpqkpltpsTG1y4JNZh/8e2KGvSduc="
+        }
+      ]
+    },
+    {
+      "Route": "razorpages.styles.css.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\tk5wjgxlj6-87a4vh6qsf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:20:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmFpFLYJVC+6Yh/ZwzHYgCqftn4itXJ4tynUqwUCnfA="
+        }
+      ]
+    }
+  ]
+}

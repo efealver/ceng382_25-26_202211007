@@ -1,0 +1,80 @@
+﻿@page
+@model YourProjectName.Pages.IndexModel
+@{
+    bool isEditing = Model.EditId.HasValue;
+}
+
+<h2>Class Information</h2>
+
+<div class="container">
+    <div class="row">
+        <!-- Left Side: Form -->
+        <div class="col-md-4">
+            <form method="post">
+                <input type="hidden" asp-for="EditId" />
+
+                <div class="mb-3">
+                    <label class="form-label">Class Name:</label>
+                    <input type="text" asp-for="ClassName" class="form-control" required />
+                    <span class="text-danger" asp-validation-for="ClassName"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Student Count:</label>
+                    <input type="number" asp-for="StudentCount" class="form-control" required min="1" />
+                    <span class="text-danger" asp-validation-for="StudentCount"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Description:</label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    @(isEditing ? "Update Class" : "Add Class")
+                </button>
+
+                @if (isEditing)
+                {
+                    <a href="/Index" class="btn btn-secondary">Cancel Edit</a>
+                }
+            </form>
+        </div>
+
+        <!-- Right Side: Table -->
+        <div class="col-md-8">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Class Name</th>
+                        <th>Student Count</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var classInfo in Model.ClassList)
+                    {
+                        <tr>
+                            <td>@classInfo.Id</td>
+                            <td>@classInfo.ClassName</td>
+                            <td>@classInfo.StudentCount</td>
+                            <td>@classInfo.Description</td>
+                            <td>
+                                <!-- Edit Button -->
+                                <a href="?editId=@classInfo.Id" class="btn btn-warning btn-sm">Edit</a>
+
+                                <!-- Delete Button -->
+                                <form method="post" asp-page-handler="Delete" style="display:inline;">
+                                    <input type="hidden" name="id" value="@classInfo.Id" />
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
