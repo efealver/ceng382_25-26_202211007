@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace YourProjectName.Models
+namespace razorpages.Models
 {
     public class ClassInformationModel
     {
@@ -58,5 +58,27 @@ namespace YourProjectName.Models
                 classInfo.Description = description;
             }
         }
+
+        private static bool _dataGenerated = false;
+
+        public static void GenerateFakeData(int count = 100)
+        {
+            if (_dataGenerated || ClassList.Count >= count)
+                return;
+
+            var rand = new Random();
+
+            for (int i = 1; i <= count; i++)
+            {
+                AddClass(
+                    $"Class {i}",
+                    rand.Next(10, 50),
+                    $"This is a description for Class {i}."
+                );
+            }
+
+            _dataGenerated = true;
+        }
+            
     }
 }

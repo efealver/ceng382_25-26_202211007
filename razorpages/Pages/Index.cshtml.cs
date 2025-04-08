@@ -2,14 +2,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using YourProjectName.Models;
+using System.Linq;
+using razorpages.Models;
 
-namespace YourProjectName.Pages
+namespace razorpages.Pages
 {
     public class IndexModel : PageModel
     {
         [BindProperty]
-        public int? EditId { get; set; } // Stores the Id of the class being edited
+        public int? EditId { get; set; }
 
         [BindProperty]
         [Required]
@@ -23,10 +24,24 @@ namespace YourProjectName.Pages
         [BindProperty]
         public string Description { get; set; }
 
-        public List<ClassInformationModel> ClassList => ClassInformationModel.ClassList;
+        //  Filtering input from query
+        [BindProperty(SupportsGet = true)]
+        public string? FilterClassName { get; set; }
+
+        //  Pagination support
+        [BindProperty(SupportsGet = true)]
+        public int PageNumber { get; set; } = 1;
+        public int TotalPages { get; set; }
+        private const int PageSize = 10;
+
+        // Filtered and paginated view model
+        public List<ClassInformationTable> TableData { get; set; } = new();
 
         public void OnGet(int? editId)
         {
+            ClassInformationModel.GenerateFakeData();
+
+            // Pre-fill form for editing
             if (editId.HasValue)
             {
                 var classInfo = ClassInformationModel.GetClassById(editId.Value);
@@ -38,6 +53,29 @@ namespace YourProjectName.Pages
                     Description = classInfo.Description;
                 }
             }
+
+            //  Filtering and pagination logic
+            var query = ClassInformationModel.ClassList.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(FilterClassName))
+            {
+                query = query.Where(c => c.ClassName.Contains(FilterClassName, System.StringComparison.OrdinalIgnoreCase));
+            }
+
+            TotalPages = (int)System.Math.Ceiling(query.Count() / (double)PageSize);
+
+            var paged = query
+                .Skip((PageNumber - 1) * PageSize)
+                .Take(PageSize)
+                .ToList();
+
+            TableData = paged.Select(c => new ClassInformationTable
+            {
+                Id = c.Id,
+                ClassName = c.ClassName,
+                StudentCount = c.StudentCount,
+                Description = c.Description
+            }).ToList();
         }
 
         public IActionResult OnPost()
@@ -47,22 +85,20 @@ namespace YourProjectName.Pages
 
             if (EditId.HasValue)
             {
-                // Update existing class
                 ClassInformationModel.UpdateClass(EditId.Value, ClassName, StudentCount, Description);
             }
             else
             {
-                // Add new class
                 ClassInformationModel.AddClass(ClassName, StudentCount, Description);
             }
 
-            return RedirectToPage();
+            return RedirectToPage(new { FilterClassName, PageNumber });
         }
 
         public IActionResult OnPostDelete(int id)
         {
             ClassInformationModel.DeleteClass(id);
-            return RedirectToPage();
+            return RedirectToPage(new { FilterClassName, PageNumber });
         }
     }
 }
