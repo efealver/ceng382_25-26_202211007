@@ -41,44 +41,99 @@
             </form>
         </div>
 
-        <!-- Right Side: Table -->
+        <!-- Right Side: Table and Controls -->
         <div class="col-md-8">
+
             <!-- Filter Form -->
             <form method="get" class="mb-3 d-flex gap-2">
                 <input type="text" name="FilterClassName" value="@Model.FilterClassName" class="form-control" placeholder="Filter by class name..." />
                 <button type="submit" class="btn btn-outline-primary">Filter</button>
             </form>
 
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Class Name</th>
-                        <th>Student Count</th>
-                        <th>Description</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var classInfo in Model.TableData)
-                    {
-                        <tr>
-                            <td>@classInfo.ClassName</td>
-                            <td>@classInfo.StudentCount</td>
-                            <td>@classInfo.Description</td>
-                            <td>
-                                <a href="?editId=@classInfo.Id&FilterClassName=@Model.FilterClassName&PageNumber=@Model.PageNumber" class="btn btn-warning btn-sm">Edit</a>
+            <!-- Export Buttons -->
+            @* <form method="post" class="mb-3">
+                <div class="mb-3">
+                    <button type="submit" name="exportMode" value="filtered" asp-page-handler="Export" class="btn btn-success me-2">
+                        Export Filtered
+                    </button>
+                    <button type="submit" name="exportMode" value="unfiltered" asp-page-handler="Export" class="btn btn-secondary">
+                        Export All
+                    </button>
+                </div>
+            </form> *@
 
-                                <form method="post" asp-page-handler="Delete" style="display:inline;">
-                                    <input type="hidden" name="id" value="@classInfo.Id" />
-                                    <input type="hidden" name="FilterClassName" value="@Model.FilterClassName" />
-                                    <input type="hidden" name="PageNumber" value="@Model.PageNumber" />
-                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
-                                </form>
-                            </td>
+            <!-- Table with Column Toggle Header -->
+            <form method="get" id="columnFilterForm">
+                <input type="hidden" name="FilterClassName" value="@Model.FilterClassName" />
+                <input type="hidden" name="PageNumber" value="@Model.PageNumber" />
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            @foreach (var column in Model.AllColumns)
+                            {
+                                var isSelected = Model.SelectedColumns.Contains(column);
+                                var btnClass = isSelected ? "btn btn-sm btn-primary" : "btn btn-sm btn-outline-secondary";
+                                <th>
+                                    <button name="toggleColumn" value="@column" class="@btnClass" form="columnFilterForm">
+                                        @column
+                                    </button>
+                                </th>
+                            }
+                            <th>Actions</th>
                         </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var classInfo in Model.TableData)
+                        {
+                            <tr>
+                               
+                                @if (Model.SelectedColumns.Contains("ClassName"))
+                                {
+                                    <td>@classInfo.ClassName</td>
+                                }
+                                @if (Model.SelectedColumns.Contains("StudentCount"))
+                                {
+                                    <td>@classInfo.StudentCount</td>
+                                }
+                                @if (Model.SelectedColumns.Contains("Description"))
+                                {
+                                    <td>@classInfo.Description</td>
+                                }
+                                <td>
+                                    <a href="?editId=@classInfo.Id&FilterClassName=@Model.FilterClassName&PageNumber=@Model.PageNumber" class="btn btn-warning btn-sm">Edit</a>
+
+                                    <form method="post" asp-page-handler="Delete" style="display:inline;">
+                                        <input type="hidden" name="id" value="@classInfo.Id" />
+                                        <input type="hidden" name="FilterClassName" value="@Model.FilterClassName" />
+                                        <input type="hidden" name="PageNumber" value="@Model.PageNumber" />
+                                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <form method="post" asp-page-handler="Export">
+                    <input type="hidden" name="FilterClassName" value="@Model.FilterClassName" />
+                    <input type="hidden" name="PageNumber" value="@Model.PageNumber" />
+                    
+                    @foreach (var col in Model.SelectedColumns)
+                    {
+                        <input type="hidden" name="SelectedColumns" value="@col" />
                     }
-                </tbody>
-            </table>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" name="exportMode" value="filtered" class="btn btn-success">
+                            Export Filtered Data
+                        </button>
+                        <button type="submit" name="exportMode" value="unfiltered" class="btn btn-info">
+                            Export Visible Page
+                        </button>
+                    </div>
+                </form>
+
+            </form>
 
             <!-- Pagination -->
             <nav>

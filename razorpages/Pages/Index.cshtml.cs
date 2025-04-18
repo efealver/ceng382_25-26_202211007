@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using razorpages.Models;
+using razorpages.Helpers;
 
 namespace razorpages.Pages
 {
@@ -24,22 +25,45 @@ namespace razorpages.Pages
         [BindProperty]
         public string Description { get; set; }
 
-        //  Filtering input from query
+        // Filtering input from query
         [BindProperty(SupportsGet = true)]
         public string? FilterClassName { get; set; }
 
-        //  Pagination support
+        // Pagination support
         [BindProperty(SupportsGet = true)]
         public int PageNumber { get; set; } = 1;
         public int TotalPages { get; set; }
         private const int PageSize = 10;
 
+        // All columns available for filtering
+        public List<string> AllColumns { get; set; } = new List<string> { "ClassName", "StudentCount", "Description" };
+
+        // Selected columns for export and view
+        [BindProperty(SupportsGet = true)]
+        public List<string> SelectedColumns { get; set; } = new();
+
         // Filtered and paginated view model
         public List<ClassInformationTable> TableData { get; set; } = new();
 
-        public void OnGet(int? editId)
+        public void OnGet(int? editId, string? toggleColumn)
         {
             ClassInformationModel.GenerateFakeData();
+          if (SelectedColumns == null || !SelectedColumns.Any())
+            {
+                SelectedColumns = AllColumns.ToList(); // Default to all columns if none are selected
+            }
+
+        // Handle column toggle
+            if (!string.IsNullOrEmpty(toggleColumn))
+            {
+                if (SelectedColumns.Contains(toggleColumn))
+                    SelectedColumns.Remove(toggleColumn);
+                else
+                    SelectedColumns.Add(toggleColumn);
+            }
+               // Ensure SelectedColumns is initialized
+      
+
 
             // Pre-fill form for editing
             if (editId.HasValue)
@@ -54,7 +78,7 @@ namespace razorpages.Pages
                 }
             }
 
-            //  Filtering and pagination logic
+            // Filtering and pagination logic
             var query = ClassInformationModel.ClassList.AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(FilterClassName))
@@ -99,6 +123,42 @@ namespace razorpages.Pages
         {
             ClassInformationModel.DeleteClass(id);
             return RedirectToPage(new { FilterClassName, PageNumber });
+        }
+
+        public IActionResult OnPostExport(string exportMode)
+        {
+            var query = ClassInformationModel.ClassList.AsQueryable();
+
+    // Apply filtering
+            if (!string.IsNullOrWhiteSpace(FilterClassName))
+            {
+                query = query.Where(c => c.ClassName.Contains(FilterClassName, System.StringComparison.OrdinalIgnoreCase));
+            }
+
+            // Apply pagination ONLY if exporting 'unfiltered' (which means "visible screen data")
+            if (exportMode == "unfiltered")
+            {
+                query = query
+                    .Skip((PageNumber - 1) * PageSize)
+                    .Take(PageSize);
+            }
+            var data = query.ToList(); // Use the query directly, as it already contains the correct data
+            var exportData = data.Select(item => {
+                var obj = new Dictionary<string, object>();
+                if (SelectedColumns == null || SelectedColumns.Count == 0 || SelectedColumns.Contains("ClassName"))
+                    obj["ClassName"] = item.ClassName;
+                if (SelectedColumns == null || SelectedColumns.Count == 0 || SelectedColumns.Contains("StudentCount"))
+                    obj["StudentCount"] = item.StudentCount;
+                if (SelectedColumns == null || SelectedColumns.Count == 0 || SelectedColumns.Contains("Description"))
+                    obj["Description"] = item.Description;
+                if (SelectedColumns == null || SelectedColumns.Count == 0 || SelectedColumns.Contains("Id"))
+                    obj["Id"] = item.Id;
+                return obj;
+            }).ToList();
+
+            var json = Utils.Instance.ExportToJson(exportData);
+            var bytes = Utils.Instance.ExportToJsonBytes(exportData);
+            return File(bytes, "application/json", "export.json");
         }
     }
 }
