@@ -44,6 +44,10 @@
         <!-- Right Side: Table and Controls -->
         <div class="col-md-8">
 
+            <form method="post" asp-page-handler="Logout" style="display:inline;">
+                <button type="submit" class="btn btn-danger">Logout</button>
+            </form>
+
             <!-- Filter Form -->
             <form method="get" class="mb-3 d-flex gap-2">
                 <input type="text" name="FilterClassName" value="@Model.FilterClassName" class="form-control" placeholder="Filter by class name..." />
@@ -124,11 +128,9 @@
                     }
 
                     <div class="d-flex gap-2">
-                        <button type="submit" name="exportMode" value="filtered" class="btn btn-success">
-                            Export Filtered Data
-                        </button>
+                       
                         <button type="submit" name="exportMode" value="unfiltered" class="btn btn-info">
-                            Export Visible Page
+                            Export
                         </button>
                     </div>
                 </form>

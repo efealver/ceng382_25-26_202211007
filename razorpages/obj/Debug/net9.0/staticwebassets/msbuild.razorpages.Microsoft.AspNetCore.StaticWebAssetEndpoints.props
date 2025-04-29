@@ -84,6 +84,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"klhq17flv5"},{"Name":"integrity","Value":"sha256-aNd4Bf7SNG\u002BAOkP5MuBWnWY9LTOThyfI8hpA3m7k93w="},{"Name":"label","Value":"_content/razorpages/css/style.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"223006"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022aNd4Bf7SNG\u002BAOkP5MuBWnWY9LTOThyfI8hpA3m7k93w=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 09:11:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/razorpages/data/users.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\users.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"338"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u00224Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 13:10:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/razorpages/data/users.o246dz9lkx.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\users.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o246dz9lkx"},{"Name":"integrity","Value":"sha256-4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8="},{"Name":"label","Value":"_content/razorpages/data/users.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"338"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u00224Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 13:10:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/razorpages/js/bootstrap.min.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

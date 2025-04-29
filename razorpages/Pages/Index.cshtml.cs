@@ -45,7 +45,7 @@ namespace razorpages.Pages
         // Filtered and paginated view model
         public List<ClassInformationTable> TableData { get; set; } = new();
 
-        public void OnGet(int? editId, string? toggleColumn)
+        public IActionResult  OnGet(int? editId, string? toggleColumn)
         {
             ClassInformationModel.GenerateFakeData();
           if (SelectedColumns == null || !SelectedColumns.Any())
@@ -53,7 +53,7 @@ namespace razorpages.Pages
                 SelectedColumns = AllColumns.ToList(); // Default to all columns if none are selected
             }
 
-        // Handle column toggle
+           // Handle column toggle
             if (!string.IsNullOrEmpty(toggleColumn))
             {
                 if (SelectedColumns.Contains(toggleColumn))
@@ -100,6 +100,28 @@ namespace razorpages.Pages
                 StudentCount = c.StudentCount,
                 Description = c.Description
             }).ToList();
+
+            // Get values from session
+            var sessionUsername = HttpContext.Session.GetString("username");
+            var sessionToken = HttpContext.Session.GetString("token");
+            var sessionId = HttpContext.Session.GetString("session_id");
+
+            // Get values from cookies
+            var cookieUsername = Request.Cookies["username"];
+            var cookieToken = Request.Cookies["token"];
+            var cookieSessionId = Request.Cookies["session_id"];
+
+            // If any are missing or mismatched, redirect to login page
+            if (sessionUsername == null || sessionToken == null || sessionId == null ||
+                cookieUsername != sessionUsername ||
+                cookieToken != sessionToken ||
+                cookieSessionId != sessionId)
+            {
+                return RedirectToPage("/Login");
+            }
+
+            // Otherwise, continue loading the page
+            return Page();
         }
 
         public IActionResult OnPost()
@@ -160,5 +182,43 @@ namespace razorpages.Pages
             var bytes = Utils.Instance.ExportToJsonBytes(exportData);
             return File(bytes, "application/json", "export.json");
         }
+        public IActionResult OnPostLogout()
+        {
+            // Clear session
+            HttpContext.Session.Clear();
+
+            // Delete cookies
+            Response.Cookies.Delete("username");
+            Response.Cookies.Delete("token");
+            Response.Cookies.Delete("session_id");
+
+            return RedirectToPage("/Login");
+        }
+
+        /*public IActionResult OnGet()
+        {
+            // Get values from session
+            var sessionUsername = HttpContext.Session.GetString("username");
+            var sessionToken = HttpContext.Session.GetString("token");
+            var sessionId = HttpContext.Session.GetString("session_id");
+
+            // Get values from cookies
+            var cookieUsername = Request.Cookies["username"];
+            var cookieToken = Request.Cookies["token"];
+            var cookieSessionId = Request.Cookies["session_id"];
+
+            // If any are missing or mismatched, redirect to login page
+            if (sessionUsername == null || sessionToken == null || sessionId == null ||
+                cookieUsername != sessionUsername ||
+                cookieToken != sessionToken ||
+                cookieSessionId != sessionId)
+            {
+                return RedirectToPage("/Login");
+            }
+
+            // Otherwise, continue loading the page
+            return Page();
+        }*/
+
     }
 }

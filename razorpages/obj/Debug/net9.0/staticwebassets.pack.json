@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\data\\users.json",
+      "PackagePath": "staticwebassets\\data\\users.json"
+    },
+    {
       "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },

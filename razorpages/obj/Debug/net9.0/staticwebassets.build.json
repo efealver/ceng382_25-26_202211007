@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8qtlsIczPVrpfCrz/XCTZNC0O2DkUCoK1kQNldwDa6A=",
+  "Hash": "O9wbJ4/fhIthQ1OueQneb5jS6TImvstO37pm/NufNmA=",
   "Source": "razorpages",
   "BasePath": "_content/razorpages",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\26hmwxdu3d-o246dz9lkx.gz",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "data/users#[.{fingerprint=o246dz9lkx}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\data\\users.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "s9kuaq3n6k",
+      "Integrity": "4FsK/JoatNOFqETJvL5+sd6cI84PgW3AurgPJthRr0s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\data\\users.json"
     },
     {
       "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\2befewg69n-dddfm65c8w.gz",
@@ -477,6 +498,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\data\\users.json",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "data/users#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o246dz9lkx",
+      "Integrity": "4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\users.json"
     },
     {
       "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js",
@@ -2647,6 +2689,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-hhHuYem+/sHpqQyDLiiMYGeFBphcjK1NayUcwIOcuHk="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.json",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\26hmwxdu3d-o246dz9lkx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006451612903"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4FsK/JoatNOFqETJvL5+sd6cI84PgW3AurgPJthRr0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.json",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\data\\users.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.json.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\26hmwxdu3d-o246dz9lkx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4FsK/JoatNOFqETJvL5+sd6cI84PgW3AurgPJthRr0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4FsK/JoatNOFqETJvL5+sd6cI84PgW3AurgPJthRr0s="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.o246dz9lkx.json",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\26hmwxdu3d-o246dz9lkx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006451612903"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4FsK/JoatNOFqETJvL5+sd6cI84PgW3AurgPJthRr0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o246dz9lkx"
+        },
+        {
+          "Name": "label",
+          "Value": "data/users.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.o246dz9lkx.json",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\data\\users.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o246dz9lkx"
+        },
+        {
+          "Name": "label",
+          "Value": "data/users.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8="
+        }
+      ]
+    },
+    {
+      "Route": "data/users.o246dz9lkx.json.gz",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\obj\\Debug\\net9.0\\compressed\\26hmwxdu3d-o246dz9lkx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4FsK/JoatNOFqETJvL5+sd6cI84PgW3AurgPJthRr0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o246dz9lkx"
+        },
+        {
+          "Name": "label",
+          "Value": "data/users.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4FsK/JoatNOFqETJvL5+sd6cI84PgW3AurgPJthRr0s="
         }
       ]
     },
