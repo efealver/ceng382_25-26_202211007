@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\data\\users.json"
     },
     {
+      "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
       "Id": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },

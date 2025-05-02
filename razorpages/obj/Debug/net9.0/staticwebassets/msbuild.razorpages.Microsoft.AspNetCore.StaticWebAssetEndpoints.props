@@ -96,6 +96,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o246dz9lkx"},{"Name":"integrity","Value":"sha256-4Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8="},{"Name":"label","Value":"_content/razorpages/data/users.json"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"338"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u00224Dx/EPvNSFLdjsEELISJMJvwxtvfjtd6kQjYz4/9gm8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 13:10:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/razorpages/images/background.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\background.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Cem/22jItBYnx\u002Btb68cGoE7nJCFTNTPYUOWxFI9ZgiY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"93376"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Cem/22jItBYnx\u002Btb68cGoE7nJCFTNTPYUOWxFI9ZgiY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 12:44:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/razorpages/images/background.lt2fpdaybp.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\background.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lt2fpdaybp"},{"Name":"integrity","Value":"sha256-Cem/22jItBYnx\u002Btb68cGoE7nJCFTNTPYUOWxFI9ZgiY="},{"Name":"label","Value":"_content/razorpages/images/background.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"93376"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Cem/22jItBYnx\u002Btb68cGoE7nJCFTNTPYUOWxFI9ZgiY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 12:44:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/razorpages/js/bootstrap.min.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

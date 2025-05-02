@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O9wbJ4/fhIthQ1OueQneb5jS6TImvstO37pm/NufNmA=",
+  "Hash": "sRXSXFS7u0QZ3qCGyt9VsmUeeVArf/u1i03ZpuV5AxA=",
   "Source": "razorpages",
   "BasePath": "_content/razorpages",
   "Mode": "Default",
@@ -519,6 +519,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\users.json"
+    },
+    {
+      "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\images\\background.jpg",
+      "SourceId": "razorpages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\",
+      "BasePath": "_content/razorpages",
+      "RelativePath": "images/background#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lt2fpdaybp",
+      "Integrity": "Cem/22jItBYnx+tb68cGoE7nJCFTNTPYUOWxFI9ZgiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\background.jpg"
     },
     {
       "Identity": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\js\\bootstrap.min.js",
@@ -2987,6 +3008,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-4FsK/JoatNOFqETJvL5+sd6cI84PgW3AurgPJthRr0s="
+        }
+      ]
+    },
+    {
+      "Route": "images/background.jpg",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\images\\background.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cem/22jItBYnx+tb68cGoE7nJCFTNTPYUOWxFI9ZgiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:44:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cem/22jItBYnx+tb68cGoE7nJCFTNTPYUOWxFI9ZgiY="
+        }
+      ]
+    },
+    {
+      "Route": "images/background.lt2fpdaybp.jpg",
+      "AssetFile": "C:\\Users\\EFE\\Documents\\GitHub\\ceng382_25-26_202211007\\razorpages\\wwwroot\\images\\background.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cem/22jItBYnx+tb68cGoE7nJCFTNTPYUOWxFI9ZgiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:44:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lt2fpdaybp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/background.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cem/22jItBYnx+tb68cGoE7nJCFTNTPYUOWxFI9ZgiY="
         }
       ]
     },
