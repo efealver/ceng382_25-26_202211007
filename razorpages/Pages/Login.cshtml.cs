@@ -24,7 +24,7 @@ namespace razorpages.Pages
             // If already logged in, redirect
             if (HttpContext.Session.GetString("username") != null)
             {
-                return RedirectToPage("/Index"); // or your table page
+                return RedirectToPage("/Index"); 
             }
             return Page();
         }
